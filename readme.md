@@ -46,7 +46,7 @@ docker build -t test-backend .
 
 * Run container
 ```
-docker run --network=test-server -p 8080:8080 -it test-backend
+docker run -p 8080:8080 -it test-backend
 ```
 ### Deploy to cloud
 

@@ -10,5 +10,5 @@ import (
 
 // GET /entity
 func GetEntity(c *gin.Context) {
-	c.JSON(http.StatusOK, gin.H{"Attributes": c.Param("entityId")})
+	c.JSON(http.StatusOK, gin.H{"Attributes to return": c.Param("entityId")})
 }
